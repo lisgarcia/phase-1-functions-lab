@@ -20,17 +20,17 @@ function distanceTravelledInFeet (start, destination) {
 function calculatesFarePrice (start, destination) {
     let distanceTraveled= distanceTravelledInFeet(start, destination)
 
-    if (distanceTraveled <400) 
-            return 0
+    if (distanceTraveled <400) {
+            return 0}
     
-    else if (distanceTraveled <2000 === distanceTraveled >400 ); 
-        return ((distanceTraveled-400)*pricePerFoot) 
+    else if (distanceTraveled <2000 === distanceTraveled >400 ){
+        return ((distanceTraveled-400)*pricePerFoot);}
     
-    // else if (distanceTraveled > 2000 === 2500 > distanceTraveled); 
-    //     return 25
+    else if (distanceTraveled > 2000 === 2500 > distanceTraveled){ 
+        return 25}
     
-    // else if (distanceTraveled > 2500); 
-    //     return 'cannot travel that far'
+    else if (distanceTraveled > 2500); {
+        return 'cannot travel that far'}
     
 }
 console.log(calculatesFarePrice(52, 48))
